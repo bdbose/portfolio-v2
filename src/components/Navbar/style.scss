@@ -1,0 +1,38 @@
+nav {
+  position: fixed;
+  max-width: 1440px;
+  width: calc(100% - 10vw);
+  padding: 26px 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  .logo {
+    font-family: 'Aquire';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+  .nav-links {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .nav-active {
+    font-weight: 700;
+    line-height: 36px;
+    color: #ff00bc;
+  }
+  .nav-elements {
+    display: flex;
+    gap: 40px;
+  }
+}
+.nav-background {
+  background: linear-gradient(180deg, #391b6b 4.03%, transparent);
+}
