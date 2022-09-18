@@ -134,13 +134,18 @@ const Companies = [
   },
   {
     name: 'Trell',
-    desc: '',
+    desc: `• Handling backend for 25M+ users. Worked on
+Various techs as Kafka, Redis and AWS(EC2,S3).\n
+• Created many APIs and also improved response
+Time of APIs. (Golang and MySQL)
+`,
     time: 'Sept 2021 - May 2022',
     title: 'SDE Intern',
   },
   {
     name: 'Dcoder',
-    desc: '',
+    desc: `• Adding new features to the present application\n
+• Fixing some bugs `,
     time: 'Nov 2021 - March 2022',
     title: 'Fullstack Developer Intern',
   },
@@ -153,7 +158,7 @@ const Home = () => {
       if (entry.isIntersecting) {
         entry.target.classList.add('show');
       } else {
-        entry.target.classList.remove('show');
+        // entry.target.classList.remove('show');
       }
     });
   });
@@ -303,6 +308,29 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <footer>
+        <h2>BOSE.CODE</h2>
+        <div className='footer-links-wrapper'>
+          {SocialLinks.map((ele) => (
+            <a
+              className='socail-link-href'
+              href={ele.link}
+              key={ele.link}
+              target='_blank'
+              rel='noreferrer'>
+              <img className='img-icon' src={ele.icon} alt='' />
+            </a>
+          ))}
+        </div>
+        <div className='footer-links-container'>
+          <a href='/'>Home</a>
+          <span>•</span>
+          <a href='/project'>Project</a>
+          <span>•</span>
+          <a href='/contact'>Contact</a>
+        </div>
+        <h6>COPYRIGHT © 2022 BIDIPTO BOSE</h6>
+      </footer>
     </main>
   );
 };
