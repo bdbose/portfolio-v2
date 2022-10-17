@@ -436,6 +436,12 @@ footer {
     display: flex;
     gap: 20px;
     margin-top: 24px;
+    align-items: center;
+    span {
+      display: block;
+      width: fit-content;
+      color: white;
+    }
     a {
       font-family: 'Poppins';
       font-style: normal;
