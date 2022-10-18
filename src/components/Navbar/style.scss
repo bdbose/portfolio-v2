@@ -31,6 +31,9 @@ nav {
   .nav-elements {
     display: flex;
     gap: 40px;
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
   }
 }
 .nav-background {
