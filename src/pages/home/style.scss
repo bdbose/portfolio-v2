@@ -95,6 +95,9 @@
         height: 184px;
         left: -5vw;
         top: -6px;
+        @media screen and (max-width: 900px) {
+          width: 92vw;
+        }
       }
       span {
         font-family: 'Aquire';
