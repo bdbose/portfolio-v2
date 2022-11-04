@@ -22,6 +22,8 @@ import { ReactComponent as Lines } from '../../assets/svgs/lines.svg';
 import { ReactComponent as Polygon } from '../../assets/svgs/polygon.svg';
 import { ReactComponent as Star } from '../../assets/svgs/star.svg';
 import * as cube from '../../assets/svgs/cube.json';
+import Footer from '../../components/Footer';
+import EducationBanner from '../../assets/imgs/education_banner.webp';
 
 const SocialLinks = [
   {
@@ -160,6 +162,25 @@ Time of APIs. (Golang and MySQL)
 • Fixing some bugs `,
     time: 'Nov 2021 - March 2022',
     title: 'Fullstack Developer Intern',
+  },
+];
+
+const Education = [
+  {
+    title: 'Calcutta Institute of Engineering and Management',
+    year: '2018 - 2022',
+  },
+  {
+    title: 'Delhi Public School, Ruby',
+    year: '2016 - 2018',
+  },
+  {
+    title: 'South Point High School',
+    year: '2011 - 2016',
+  },
+  {
+    title: 'South Point School',
+    year: '2003 - 2011',
   },
 ];
 
@@ -332,29 +353,26 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <footer>
-        <h2>BOSE.CODE</h2>
-        <div className='footer-links-wrapper'>
-          {SocialLinks.map((ele) => (
-            <a
-              className='socail-link-href'
-              href={ele.link}
-              key={ele.link}
-              target='_blank'
-              rel='noreferrer'>
-              <img className='img-icon' src={ele.icon} alt='' />
-            </a>
-          ))}
+      <div className='education-wrapper'>
+        <h2>
+          My <span>Education</span>
+        </h2>
+        <div className='education-container'>
+          <img src={EducationBanner} alt='education bidipto bose' />
+          <div className='education-scroll'>
+            {Education.map((ele, indx) => {
+              return (
+                <div className='edu-card'>
+                  <span>{indx + 1}</span>
+                  <div className='edu-card-title'>{ele.title}</div>
+                  <div className='edu-card-year'>{ele.year}</div>
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <div className='footer-links-container'>
-          <a href='/'>Home</a>
-          <span>•</span>
-          <a href='/project'>Project</a>
-          <span>•</span>
-          <a href='/contact'>Contact</a>
-        </div>
-        <h6>COPYRIGHT © 2022 BIDIPTO BOSE</h6>
-      </footer>
+      </div>
+      <Footer SocialLinks={SocialLinks} />
     </main>
   );
 };
