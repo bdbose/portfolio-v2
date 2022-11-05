@@ -73,7 +73,7 @@ const tech = [
   },
   {
     img: '/logo/firebase.svg',
-    txt: 'Firebase',
+    txt: 'GoLang',
   },
   {
     img: '/logo/amazon.svg',
@@ -105,7 +105,7 @@ const tech = [
   },
   {
     img: '/logo/ui.svg',
-    txt: ['UI/UX', 'Design'],
+    txt: 'Redis',
   },
   {
     img: '/logo/mysql.svg',
@@ -117,7 +117,7 @@ const tech = [
   },
   {
     img: '/logo/android.svg',
-    txt: ['Android', 'Studio'],
+    txt: 'React Native',
   },
   {
     img: '/logo/ml.svg',
@@ -136,30 +136,37 @@ const tech = [
 const Companies = [
   {
     name: 'SaffronStays',
-    desc: '',
+    desc: `• Migrating existing NodeJs APIs to Golang ,improving and optimizing API response time by more than 150%.\n
+    • Worked with NLP, Elastic Search and Python for making the Chatbot used in the SaffronStays Website for improving user-flow and user engagement.\n
+    • Also made a NLP Recommendation Engine which recommends user Villas based on the type of villas they are looking.\n
+    • Made a whole Inventory Management Dashboard using Reactjs called SYNC where admins/Home owners can use to update their inventy, rates, block dates,etc. Fully custum calendar made from scratch.\n
+    • Contributed to the CMS dashboard where admins can update villa details, update/upload photos and much more.\n
+    • Improving SEO and optimizing the main website. Increased Google impressions and clicks by 40%.\n
+    • Making the whole Backend APIs and Frontend Finance Module for the Finace Management.\n
+    • Tech Stack - Reactjs, Golang, MySql, AWS(EC2,S3), Python(Flask), NodeJs.`,
     title: 'Software Development Engineer',
     time: 'June 2022 - Present',
   },
   {
     name: 'Nykaa',
-    desc: '',
+    desc: `• Working with the User Management Team managing and improving user relatived activities eg. Login, Authentication.\n
+    • Migrating Php(Magneto) monolith APIs to Django for more scalability and security. Creating new APIs in Django and testing.`,
     time: 'May 2022 - June 2022',
     title: 'Software Engineer Intern',
   },
   {
     name: 'Trell',
-    desc: `• Handling backend for 25M+ users. Worked on
-Various techs as Kafka, Redis and AWS(EC2,S3).\n
-• Created many APIs and also improved response
-Time of APIs. (Golang and MySQL)
+    desc: `• Handling backend for 25M+ users. Worked on various techs as Kafka, Redis and AWS(EC2,S3).\n
+• Created many APIs and also improved response time of APIs. (Golang and MySQL)
 `,
     time: 'Sept 2021 - May 2022',
     title: 'SDE Intern',
   },
   {
     name: 'Dcoder',
-    desc: `• Adding new features to the present application\n
-• Fixing some bugs `,
+    desc: `• Adding new Feature like creating workflows using code blocks. \n
+    • Contributing to the Blog feature they added to the website where user can create technical blogs.\n
+• Helped in fixing exisiting Bugs and improving website performance.`,
     time: 'Nov 2021 - March 2022',
     title: 'Fullstack Developer Intern',
   },
@@ -168,11 +175,11 @@ Time of APIs. (Golang and MySQL)
 const Education = [
   {
     title: 'Calcutta Institute of Engineering and Management',
-    year: '2018 - 2022',
+    year: 'BTech(Computer Science and Engineering) 2018 - 2022',
   },
   {
     title: 'Delhi Public School, Ruby',
-    year: '2016 - 2018',
+    year: 'Higher Secondary (CBSE) 2016 - 2018',
   },
   {
     title: 'South Point High School',
