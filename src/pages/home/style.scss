@@ -169,6 +169,7 @@
     img {
       width: 30%;
       z-index: 1;
+      min-width: 200px;
     }
     p {
       width: 50%;
@@ -228,11 +229,13 @@
     .tech-icons {
       width: calc(100% - 20px);
       display: block;
+      height: calc(100% - 20px);
       padding: 10px;
       background-color: #ffffff;
       border-radius: 8px;
       opacity: 0;
       cursor: pointer;
+      aspect-ratio: 1/1;
     }
     .show {
       animation: tech-anime 0.3s linear;

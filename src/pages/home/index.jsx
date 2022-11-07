@@ -72,7 +72,7 @@ const tech = [
     txt: 'MongoDB',
   },
   {
-    img: '/logo/firebase.svg',
+    img: 'https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png',
     txt: 'GoLang',
   },
   {
@@ -104,7 +104,7 @@ const tech = [
     txt: 'Sass',
   },
   {
-    img: '/logo/ui.svg',
+    img: 'https://download.logo.wine/logo/Redis/Redis-Logo.wine.png',
     txt: 'Redis',
   },
   {
@@ -116,7 +116,7 @@ const tech = [
     txt: 'C++',
   },
   {
-    img: '/logo/android.svg',
+    img: '/logo/react-native.png',
     txt: 'React Native',
   },
   {
@@ -369,7 +369,7 @@ const Home = () => {
           <div className='education-scroll'>
             {Education.map((ele, indx) => {
               return (
-                <div className='edu-card'>
+                <div className='edu-card' key={ele.title}>
                   <span>{indx + 1}</span>
                   <div className='edu-card-title'>{ele.title}</div>
                   <div className='edu-card-year'>{ele.year}</div>
