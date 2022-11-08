@@ -142,7 +142,7 @@ const Companies = [
     • Made a whole Inventory Management Dashboard using Reactjs called SYNC where admins/Home owners can use to update their inventy, rates, block dates,etc. Fully custum calendar made from scratch.\n
     • Contributed to the CMS dashboard where admins can update villa details, update/upload photos and much more.\n
     • Improving SEO and optimizing the main website. Increased Google impressions and clicks by 40%.\n
-    • Making the whole Backend APIs and Frontend Finance Module for the Finace Management.\n
+    • Making the whole Backend APIs and Frontend Finance Module for the Finance Management.\n
     • Tech Stack - Reactjs, Golang, MySql, AWS(EC2,S3), Python(Flask), NodeJs.`,
     title: 'Software Development Engineer',
     time: 'June 2022 - Present',
