@@ -104,7 +104,7 @@ const tech = [
     txt: 'Sass',
   },
   {
-    img: 'https://download.logo.wine/logo/Redis/Redis-Logo.wine.png',
+    img: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/redis_original_wordmark_logo_icon_146369.png',
     txt: 'Redis',
   },
   {
@@ -116,7 +116,7 @@ const tech = [
     txt: 'C++',
   },
   {
-    img: '/logo/react-native.png',
+    img: 'https://www.datocms-assets.com/45470/1631026680-logo-react-native.png',
     txt: 'React Native',
   },
   {

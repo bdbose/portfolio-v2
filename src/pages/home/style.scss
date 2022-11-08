@@ -183,7 +183,7 @@
         font-size: 16px;
         text-align: center;
         line-height: 22px;
-        width: 80%;
+        width: 90%;
       }
     }
   }
@@ -230,6 +230,7 @@
       width: calc(100% - 20px);
       display: block;
       height: calc(100% - 20px);
+      object-fit: cover;
       padding: 10px;
       background-color: #ffffff;
       border-radius: 8px;
@@ -656,6 +657,10 @@ footer {
       font-size: 20px;
       line-height: 30px;
       color: #ffffff;
+      @media screen and (max-width: 900px) {
+        font-size: 16px;
+        line-height: 24px;
+      }
     }
   }
   h6 {
