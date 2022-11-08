@@ -293,13 +293,14 @@ const Home = () => {
         <div className='about-me-container'>
           <img src={AboutMePhoto} alt='bidipto bose' />
           <p>
-            Hi , I am Bidipto Bose from Kolkata , India . I am currently a 4th
-            year student in Calcutta Institute of Engineering and Management ,
-            pursuing B.Tech in Computer Science and Engineering. Coding is like
-            a Hobby to me and learning new programming language is like my
-            passion. Mainly focused on Website Development . Already 3 years of
-            experience in Website Development and also have experience in
-            multiple internships .
+            Hi , I am Bidipto Bose from Kolkata , India . I am currently a SDE
+            at SaffronStays. I have done my BTech in Computer Science and
+            Engineering from Calcutta Institute of Engineering and Management
+            (2018-2022). Coding, learning and building new Tech is my hobby. I
+            am experienced with handling and building scalable and secure system
+            for both website and mobile application. I have more than 3 years of
+            industry experience from multiple internships and on various tech
+            stack.
           </p>
         </div>
       </div>
