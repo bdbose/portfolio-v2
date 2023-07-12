@@ -244,8 +244,16 @@ const Home = () => {
             </div>
           </h2>
           <div className='banner-btn-wrapper'>
-            <button>Hire Me</button>
-            <button className='with-border-btn'>Download CV</button>
+            <a href='mailto:bdbose123@gmail.com?subject=Welcome to My Company Brother!'>
+              <button>Hire Me</button>
+            </a>
+            <button
+              className='with-border-btn'
+              onClick={() => {
+                window.open('/resume.pdf', '_blank');
+              }}>
+              Download CV
+            </button>
           </div>
           <div className='social-links'>
             {SocialLinks.map((ele) => (

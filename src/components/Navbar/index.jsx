@@ -11,10 +11,10 @@ const NavElement = [
     title: 'Projects',
     link: '/projects',
   },
-  {
-    title: 'Contact',
-    link: '/contact',
-  },
+  // {
+  //   title: 'Contact',
+  //   link: '/contact',
+  // },
   {
     title: 'Blogs',
     link: 'https://bdbose123.medium.com/',
