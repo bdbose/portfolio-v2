@@ -26,7 +26,15 @@ const data = {
       desc: "QuizAce - The Smart Quiz App is an engaging mobile game available exclusively on the Google Play Store. Developed using React Native, the app offers a seamless and immersive quiz experience for Android users. Leveraging the power of FireBase, the game utilizes its robust backend infrastructure for efficient data storage, user authentication, and real-time updates. With React Native's cross-platform capabilities and FireBase's reliability, QuizAce delivers a smooth and interactive user interface, making it a must-have game for Android users looking to test their knowledge across various topics.",
     },
   ],
-  'NPM Packages': [],
+  'NPM Packages': [
+    {
+      title: '',
+      link: '',
+      tech: '',
+      desc: '',
+      img: '',
+    },
+  ],
 };
 
 const Project = () => {
