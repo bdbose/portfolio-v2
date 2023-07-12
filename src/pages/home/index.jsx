@@ -22,7 +22,7 @@ import { ReactComponent as Lines } from '../../assets/svgs/lines.svg';
 import { ReactComponent as Polygon } from '../../assets/svgs/polygon.svg';
 import { ReactComponent as Star } from '../../assets/svgs/star.svg';
 import * as cube from '../../assets/svgs/cube.json';
-import Footer from '../../components/Footer';
+// import Footer from '../../components/Footer';
 import EducationBanner from '../../assets/imgs/education_banner.webp';
 
 const SocialLinks = [
@@ -380,7 +380,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer SocialLinks={SocialLinks} />
+      {/* <Footer SocialLinks={SocialLinks} /> */}
     </main>
   );
 };

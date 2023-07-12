@@ -2,8 +2,10 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import React, { lazy, Suspense } from 'react';
+import Footer from './components/Footer';
 
 const Home = lazy(() => import('./pages/home'));
+const Project = lazy(() => import('./pages/projects'));
 
 function App() {
   return (
@@ -19,8 +21,17 @@ function App() {
               </Suspense>
             }
           />
+          <Route
+            path='/projects'
+            element={
+              <Suspense>
+                <Project />
+              </Suspense>
+            }
+          />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

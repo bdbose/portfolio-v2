@@ -17,7 +17,7 @@ const NavElement = [
   },
   {
     title: 'Blogs',
-    link: '/blogs',
+    link: 'https://bdbose123.medium.com/',
   },
 ];
 
@@ -34,6 +34,7 @@ const Navbar = () => {
       });
     }
   }, []);
+
   return (
     <nav>
       <a href='/' className='logo'>
@@ -46,7 +47,7 @@ const Navbar = () => {
               key={ele.title}
               href={ele.link}
               className={`nav-links ${
-                window.location.href.includes(ele.link) ? 'nav-active' : ''
+                window.location.pathname === ele.link ? 'nav-active' : ''
               }`}>
               {ele.title}
             </a>
