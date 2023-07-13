@@ -28,10 +28,24 @@ const data = {
   ],
   'NPM Packages': [
     {
-      title: '',
-      link: '',
-      tech: '',
-      desc: '',
+      title: 'react-responsive-calendar-picker',
+      link: 'https://www.npmjs.com/package/react-responsive-calendar-picker',
+      tech: 'Monthly 200+ downloads',
+      desc: 'A Date Picker Calendar that is fully custom for hotel business. We can block dates/select/add custom data to every date.',
+      img: '',
+    },
+    {
+      title: 'multi-date',
+      link: 'https://www.npmjs.com/package/multi-date',
+      tech: 'Monthly 150+ downloads',
+      desc: 'Multi-date have various functions to make your date handling easy.',
+      img: '',
+    },
+    {
+      title: 'responsive-navbar-react',
+      link: 'https://www.npmjs.com/package/responsive-navbar-react',
+      tech: 'Monthly 250+ downloads',
+      desc: 'A Responsive Navbar Component for making Navbars easily.',
       img: '',
     },
   ],
