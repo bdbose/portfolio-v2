@@ -69,7 +69,7 @@ const Footer = () => {
         <span>•</span>
         <a href='/contact'>Contact</a>
       </div>
-      <h6>COPYRIGHT © 2022 BIDIPTO BOSE</h6>
+      <h6>COPYRIGHT © {new Date().getFullYear()} BIDIPTO BOSE</h6>
     </footer>
   );
 };

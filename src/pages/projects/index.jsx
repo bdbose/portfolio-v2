@@ -25,6 +25,20 @@ const data = {
       tech: 'React Native + Firebase',
       desc: "QuizAce - The Smart Quiz App is an engaging mobile game available exclusively on the Google Play Store. Developed using React Native, the app offers a seamless and immersive quiz experience for Android users. Leveraging the power of FireBase, the game utilizes its robust backend infrastructure for efficient data storage, user authentication, and real-time updates. With React Native's cross-platform capabilities and FireBase's reliability, QuizAce delivers a smooth and interactive user interface, making it a must-have game for Android users looking to test their knowledge across various topics.",
     },
+    {
+      title: 'Raxel - The Pixel Art Maker',
+      link: 'https://raxel.vercel.app/',
+      img: '/project/p4.webp',
+      tech: 'NextJs',
+      desc: "Raxel - The Pixel Art Maker is a Web App built using Next.js, a popular React framework. It enables users to create pixel art designs by placing individual pixels on a canvas. Next.js provides server-side rendering and optimized performance, while React's component-based architecture ensures a seamless user interface. Raxel leverages Next.js's routing capabilities for easy navigation and incorporates responsive design principles for a consistent experience across devices.",
+    },
+    {
+      title: 'ChatRoom - A Online ChatRoom',
+      link: 'https://www.youtube.com/watch?v=Wuz6HkswdAM',
+      img: '/project/p5.webp',
+      tech: 'ReactJs + NodeJs + SocketIO',
+      desc: 'This Chat App is built using React.js for the front-end, Node.js for the back-end, and Socket.IO for real-time communication. It allows users to chat in real-time, sending and receiving messages instantly. The React.js components provide a dynamic user interface, while Node.js and Socket.IO handle the server-side logic, enabling seamless communication between clients.',
+    },
   ],
   'NPM Packages': [
     {

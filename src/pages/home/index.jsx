@@ -244,7 +244,9 @@ const Home = () => {
             </div>
           </h2>
           <div className='banner-btn-wrapper'>
-            <a href='mailto:bdbose123@gmail.com?subject=Welcome to My Company Brother!'>
+            <a
+              style={{ width: '100%', display: 'contents' }}
+              href='mailto:bdbose123@gmail.com?subject=Welcome to My Company Brother!'>
               <button>Hire Me</button>
             </a>
             <button

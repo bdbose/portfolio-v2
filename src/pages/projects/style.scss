@@ -13,7 +13,8 @@
     }
   }
   h2 {
-    font-family: 'Poppins';
+    font-family: 'Aquire';
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -21,5 +22,8 @@
     color: #ffffff;
     margin-bottom: 68px;
     margin-top: 30px;
+    @media screen and (max-width: 800px) {
+      font-size: 28px;
+    }
   }
 }
