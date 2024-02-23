@@ -1,0 +1,13 @@
+{
+  "appId": "com.saffronstays.app",
+  "appName": "Saffronstays",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
